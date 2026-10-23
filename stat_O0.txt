@@ -1,0 +1,16 @@
+
+ Performance counter stats for 'taskset -c 2 ./simple_O0' (3 runs):
+
+               113      context-switches                 #     15.1 cs/sec  cs_per_second       ( +-  9.62% )
+                 0      cpu-migrations                   #      0.0 migrations/sec  migrations_per_second
+             2,151      page-faults                      #    286.6 faults/sec  page_faults_per_second
+          7,504.75 msec task-clock                       #      1.0 CPUs  CPUs_utilized         ( +-  0.02% )
+        77,753,003      L1-dcache-load-misses            #      0.4 %  l1d_miss_rate            ( +-  0.33% )  (37.50%)
+         4,418,649      LLC-loads                        #      7.6 %  llc_miss_rate            ( +-  1.48% )  (25.02%)
+         1,592,655      branch-misses                    #      0.0 %  branch_miss_rate         ( +-  1.33% )  (25.01%)
+     5,485,221,809      branches                         #    730.9 M/sec  branch_frequency     ( +-  0.04% )  (25.01%)
+    18,628,815,593      cpu-cycles                       #      2.5 GHz  cycles_frequency       ( +-  0.02% )  (37.50%)
+    46,677,848,465      instructions                     #      2.5 instructions  insn_per_cycle  ( +-  0.05% )  (37.50%)
+
+       7.509134413 +- 0.002822112 seconds time elapsed  ( +-  0.04% )
+
